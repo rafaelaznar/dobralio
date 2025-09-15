@@ -153,7 +153,7 @@ public class ScoreDao {
             PreparedStatement updateStmt = conn.prepareStatement(updateSql);
             updateStmt.setInt(1, oScore.getScore());
             updateStmt.setInt(2, oScore.getTries());
-            updateStmt.setInt(3, oScore.getId());
+            updateStmt.setInt(3, oScore.getUserId());
             return updateStmt.executeUpdate();
         } catch (SQLException e) {
             throw e;

@@ -3,7 +3,7 @@ package net.ausiasmarch.capitals.dao;
 import java.sql.*;
 
 import net.ausiasmarch.capitals.model.UserBean;
-import net.ausiasmarch.capitals.service.DatabaseService;
+import net.ausiasmarch.database.DatabaseService;
 
 public class UserDao {
 

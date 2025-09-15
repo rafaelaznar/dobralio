@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import net.ausiasmarch.capitals.model.ScoreDto;
-import net.ausiasmarch.capitals.service.DatabaseService;
+import net.ausiasmarch.database.DatabaseService;
 
 public class ScoreDao {
 
